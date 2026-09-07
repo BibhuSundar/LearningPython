@@ -140,6 +140,33 @@ Below is a summary of the topics covered in the repository up to now.
 - **Lab059_Odd_Number.py** — Prints odd numbers 0–9 by skipping evens with `continue`.
 - **LabPass_Vs_Continue_059.py** — Contrasts `continue` (skips 3) with `pass` (no-op, prints everything).
 
+### ex_08 — Functions
+
+- **Lab060_Built_In.py** — Uses built-in functions (`print()`, `input()`) without defining any user-defined functions.
+- **Lab061_Example_Functions.py** — Basic define-and-call pattern of a simple function with no parameters.
+- **Lab062_Example_Functions.py** — Calling the same function multiple times to illustrate code reusability.
+- **Lab063_Function_Parameter.py** — Functions that accept parameters; passing different argument types (string, float).
+- **Lab064_Type3_Function_return.py** — A function that accepts parameters and returns a computed result with `return`.
+- **Lab065_Function_Default_Parameter.py** — Functions with default parameter values used when no argument is passed.
+- **Lab066_Functions_Return_Multiple_Values.py** — Returning multiple values (as a tuple) and unpacking them.
+- **Lab067_Functions_Keyword_Arg.py** — Calling functions with keyword arguments in any order.
+- **Lab068_User_Input_Pass_Function.py** — Capturing user input at runtime and passing it into a function.
+- **Lab069_Functions_Types.py** — The four categories of functions: no return/no params, no return/with params, default params, and return/with params.
+- **Lab070_Functions_IQ.py** — Sum-of-three function with defaults, called using positional, keyword, and mixed arguments.
+- **Lab071_IQ.py** — Calling a function with three default parameters using different positional/keyword combinations.
+- **Lab072_Infinite_Args.py** — Accepting a variable number of positional arguments with `*args`.
+- **Lab073_Real_Args.py** — `*args` in a practical pizza-topping selector.
+- **LabQ01.py** — Commented example showing that calling a function before defining it errors out.
+- **LabQ02.py** — Nested (inner) functions defined and called inside an outer function.
+- **LabQ03_REAL_Example.py** — Real-world function validating an HTTP status code, called with positional, keyword, and user-input arguments.
+
+### ex_09 — Functions Scopes
+
+- **Lab075_Local_Variable.py** — A function can read a global variable, but its local variable is only accessible inside the function.
+- **Lab076.py** — Global variables are accessible inside any function, while a local variable in one function can't be accessed from another.
+- **Lab077_Local_Var.py** — Assigning a same-named variable inside a function creates a local that shadows the global (global stays unchanged).
+- **Lab078_Inner_Functions.py** — Nested functions can access the enclosing function's scope, but can't be called from outside.
+
 ## How to Run
 
 Each lab is a standalone Python script. From the repository root, run any file with:
