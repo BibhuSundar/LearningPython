@@ -167,6 +167,29 @@ Below is a summary of the topics covered in the repository up to now.
 - **Lab077_Local_Var.py** — Assigning a same-named variable inside a function creates a local that shadows the global (global stays unchanged).
 - **Lab078_Inner_Functions.py** — Nested functions can access the enclosing function's scope, but can't be called from outside.
 
+### ex_10 — Decorators
+
+- **Lab079_Decortors.py** — A `wrapper` inside `add_security` runs code before and after the decorated function, applied to two scooter-driving functions.
+- **Lab080_Decor.py** — `before_after_ui_test` decorator that logs a message before and after a UI test function.
+- **Lab081_WithOutDecor.py** — Shows how you'd manually interleave `start()` / `test_ui()` / `end()` calls without a decorator.
+- **Lab082_Real_Decor.py** — Two decorators (`print_logs` and `time_decorator`) stacked with `@`, timing a function that sleeps to measure execution elapsed time.
+- **Lab083_Decor_2.py** — Applying the same decorator twice (`@decorator1` stacked) to observe the ordering of wrapper calls.
+- **Lab084_IQ_Leap_Year.py** — Leap-year checker using the (mult 4, not mult 100, or mult 400) rule.
+- **LabTime.py** — Exploring the `time` module: `time.time()`, `time.sleep()`, and `time.localtime()` for the current hour and minute.
+
+### ex_11 — Type Conversion
+
+- **Lab087_Type_Conversion.py** — Casting a string to `int` with `type()` checks, plus the built-in conversion functions (`int()`, `str()`, `float()`, `bool()`, `list()`, `tuple()`, `set()`, `dict()`, `complex()`).
+- **Lab088_IQ_Triangle_Classifier.p.py** — Triangle classifier from three user-entered side lengths: equilateral, isosceles, or scalene.
+
+### ex_12 — Lambda Functions
+
+- **Lab090_Lambda.py** — A named `triple_number` function rewritten as a `lambda`, then called directly.
+- **Lab091_Lambda.py** — Plain `add(n)` function as a one-liner lambda: `n + 10`.
+- **Lab092_Lambda.py** — Lambda with two parameters for multiplication: `a * b`.
+- **Lab093_Lambda.py** — Lambda with three parameters returning the sum of three numbers.
+- **Lab094_User_Input_ODD_Even.py** — Replaces a normal even/odd function with a lambda using a ternary expression, driven by user input.
+
 ## How to Run
 
 Each lab is a standalone Python script. From the repository root, run any file with:
